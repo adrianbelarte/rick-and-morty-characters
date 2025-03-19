@@ -77,5 +77,32 @@ ul {
   list-style: none;
 }
 
+#character-list{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: initial;
+  margin-top: 100px;
+  gap: 20px; 
+  padding: 20px;
+  list-style: none;
+}
+
+.character {
+  background-color: #03422a;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  width: 250px; 
+}
+
+.character img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+
 
 
